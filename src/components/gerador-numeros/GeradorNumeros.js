@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { ActivityIndicator, Button, FlatList, ScrollView, StyleSheet, Text, TextInput, View } from "react-native"
+import { ActivityIndicator, Button, ScrollView, StyleSheet, Text, TextInput, View } from "react-native"
 import { Numero } from "./Numero"
 
 const style = StyleSheet.create({
@@ -42,7 +42,7 @@ const style = StyleSheet.create({
 
 })
 
-export const Mega = () => {
+export const GeradorNumeros = () => {
   const [inputs, setInputs] = useState({
     n1: '',
     n2: '',
