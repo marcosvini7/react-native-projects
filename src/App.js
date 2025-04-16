@@ -1,6 +1,4 @@
-import { Calculator } from './components/calculator/Calculator'
-import { CampoMinado } from './components/campo-minado/CampoMinado'
-import { GeradorNumeros } from './components/gerador-numeros/GeradorNumeros'
+import { CampoMinado } from './components/campo-minado/components/CampoMinado'
 
 export default () => {
 
